@@ -5,7 +5,6 @@ spring:
     username: ${MYSQL_USERNAME}
     password: ${MYSQL_PW}
 
-
   jpa:
     open-in-view: false
     hibernate:
@@ -19,3 +18,4 @@ spring:
 
   thymeleaf:
     cache: false
+
